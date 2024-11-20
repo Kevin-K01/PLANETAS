@@ -1,5 +1,5 @@
-Planetas
-Página web acerca de los planetas del sistema solar, con algo de información sobre cada uno de ellos.
+## Planetas
+Página web acerca de los planetas del Sistema Solar, con algo de información general sobre cada uno de ellos.
 ## Instalación
 1. Clona este repositorio:
     ```
@@ -14,4 +14,5 @@ Página web acerca de los planetas del sistema solar, con algo de información s
     https://kevin-k01.github.io/PLANETAS/
     ```
 ## Autor
-Creado por [Kevin](https://github.com/Kevin-K01) - ¡Si te gusta el proyecto, no dudes en contactarme!
+Creado por: [Kevin](https://github.com/Kevin-K01) - ¡Si te gusta el proyecto, no dudes en contactarme!
+........................................................................................................
