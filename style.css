@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     flex-direction: column;
@@ -12,18 +16,32 @@ header, nav, main {
     margin-bottom: 20px; 
 }
 nav a {
+    display: inline-block;
+    padding:10px 20px;
     margin: 0 10px; 
     text-decoration: none; 
-    color: #007BFF; 
+    color: white;
+    background-color:green;
+    border-radius: 5px;
+    font-family: Arial,sans-serif;
+    font-size: 16px;
+    transition: background-color 0.3s; 
 }
 nav a:hover {
-    text-decoration: underline; 
+    background-color:chartreuse; 
 }    
+nav{
+    text-align: center;
+}
 
 p {
     text-align: justify;
     text-align:center; 
     margin: 20px 0px;
+}
+
+h2 {
+    color:rgb(64, 22, 193)
 }
 footer {
     color: black;
@@ -62,6 +80,7 @@ ul {
 }
 
 body.v {
+    background-color:bisque;
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -80,4 +99,16 @@ nav.v {
 p.v {
     text-align: justify; 
     margin: 20px 100px;
+}
+
+#principal {
+    background-color:rgb(255, 247, 186);
+}
+
+.pr{
+    color:black;
+}
+
+h1.pr{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
