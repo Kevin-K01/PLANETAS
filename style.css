@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -9,40 +9,44 @@ body {
     justify-content: center; 
     height: 100vh; 
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Rubik", sans-serif;
     text-align: center; 
+    background-color: bisque;
 }
-header, nav, main {
-    margin-bottom: 20px; 
+
+header, nav, main, footer {
+    text-align: center;
+    margin-bottom: 20px;
 }
+
 nav a {
     display: inline-block;
-    padding:10px 20px;
+    padding: 10px 20px;
     margin: 0 10px; 
     text-decoration: none; 
     color: white;
-    background-color:green;
+    background-color: green;
     border-radius: 5px;
-    font-family: Arial,sans-serif;
+    font-family: "Rubik", sans-serif;
     font-size: 16px;
     transition: background-color 0.3s; 
 }
+
 nav a:hover {
-    background-color:chartreuse; 
-}    
-nav{
-    text-align: center;
+    background-color: chartreuse; 
 }
 
 p {
     text-align: justify;
-    text-align:center; 
     margin: 20px 0px;
 }
 
 h2 {
-    color:rgb(64, 22, 193)
+    color: rgb(64, 22, 193);
+    font-size:38px;
+    font-weight: bold;
 }
+
 footer {
     color: black;
     text-align: center;
@@ -62,53 +66,58 @@ ul {
     list-style-type: disc; 
     margin-left: 10px; 
 }
-#otrosdatos{
+
+#otrosdatos {
     position: absolute;
-    top: 5px;
-    left: 910px;
-    width: 450px; 
-    padding: 10px; 
-    text-align: justify; 
-}
-#otrosdatos2{
-    position: absolute;
-    top: 310px;
-    left: 980px;
+    top: 20px;
+    left: 950px;
     width: 450px; 
     padding: 10px; 
     text-align: justify; 
 }
 
-body.v {
-    background-color:bisque;
+#otrosdatos2 {
+    position: absolute;
+    top: 350px;
+    left: 1000px;
+    width: 450px; 
+    padding: 10px; 
+    text-align: justify; 
+}
+
+body.planet {
+    background-color: bisque;
     display: flex;
+    display:swap;
     flex-direction: column;
     align-items: center; 
-    justify-content:right; 
+    justify-content: right; 
     height: 100vh; 
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: "Rubik", sans-serif;
     text-align: center; 
 }
-nav.v {
+
+nav.planet {
     position: fixed; 
     top: 20px; 
     left: 20px; 
 }
 
-p.v {
+p.planet {
     text-align: justify; 
     margin: 20px 100px;
 }
 
-#principal {
-    background-color:rgb(255, 247, 186);
+.principal,p.principal {
+    background-color: rgb(255, 247, 186);
+    color: black;
+    text-align:center;
 }
 
-.pr{
-    color:black;
-}
 
 h1.pr{
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 40px;
 }
