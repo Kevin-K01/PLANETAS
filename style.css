@@ -1,4 +1,4 @@
-img.planet {
+.planet img{
     width: 100%; 
     max-width: 850px;
     height: auto; 
@@ -166,8 +166,10 @@ ul li, ol li {
     flex-direction: column;
     width: 300px;
     position: absolute;
-    top: 320px;
-    left: 30px;
+    text-align: justify;
+    top: 520px;
+    left: 20px;
+    margin-right: 10px;
     gap: 10px;
 }
 
@@ -210,7 +212,6 @@ ul li, ol li {
 }
 
 
-/* Estilos para dispositivos móviles */
 @media (max-width: 600px) {
     h1 {
         font-size: 32px;
@@ -279,7 +280,7 @@ ul li, ol li {
         gap: 10px;
     }
 
-    img.planet {
+    .planet img {
         max-width: 100%;
         height: auto;
         display: block;
@@ -296,7 +297,6 @@ ul li, ol li {
 
 
 
-/* Estilos para tablets y tamaños de pantalla más grandes */
 @media (min-width: 601px) and (max-width: 1024px) {
     h1 {
         font-size: 36px;
@@ -306,7 +306,7 @@ ul li, ol li {
 
     img {
         display: block;
-        width: 80%; /* Ajusta para una mayor flexibilidad en tablets */
+        width: 80%; 
         height: auto;
         margin: 15px auto;
     }
@@ -334,7 +334,7 @@ ul li, ol li {
     }
 
     nav .menu-item {
-        flex: 1 0 24%; /* Ajusta según sea necesario */
+        flex: 1 0 24%;
     }
 
     nav a {
@@ -358,13 +358,13 @@ ul li, ol li {
         flex-direction: column;
         position: relative;
         top: 60px;
-        width: 300px; /* Ajusta el ancho para evitar sobreponerse */
-        gap: 15px;
+        width: 300px; 
     }
 
-    img.planet {
+    .planet img{
         max-width: 80%;
         height: auto;
+        display: block;
         display: block;
         margin: 15px auto;
     }
@@ -374,4 +374,35 @@ ul li, ol li {
         padding: 15px;
         text-align: center;
     }
+}
+.caja_galeria {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    gap: 15px; 
+    margin: 20px auto;
+    background-color: #1c294d; 
+    border-radius: 12px; 
+    padding: 20px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+}
+
+.caja_galeria .galeria img {
+    align-self:center;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    max-width: 300px; 
+    height: auto; 
+    border: 2px solid #445973; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); 
+    transition: transform 0.3s, box-shadow 0.3s; 
+    object-fit: cover; 
+}
+
+.caja_galeria .galeria img:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
 }
